@@ -1,0 +1,12 @@
+{
+  "name": "repo-readme-generator-v2",
+  "version": "2.0.0",
+  "description": "Generate professional READMEs for your repositories v2",
+  "main": "src/index.js",
+  "bin": { "gh-readme-v2": "./src/index.js" },
+  "scripts": { "start": "node src/index.js" },
+  "keywords": ["github", "readme", "generator"],
+  "author": "Yoshikondo",
+  "license": "MIT",
+  "dependencies": { "chalk": "^4.1.2", "inquirer": "^8.2.5" }
+}
